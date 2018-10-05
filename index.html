@@ -6,8 +6,8 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Mono&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/elusive-icons/2.0.0/css/elusive-icons.min.css"> -->
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -53,20 +53,22 @@
 							</div>
 							<div class="time">ПН-СБ с 9:00 до 18:00, ВС выходной</div>
 						</div>
-						<div class="search-box">
-							<form action="#">
-								<input type="text" placeholder="Поиск товаров">
-								<input type="submit">
-							</form>
-						</div>
-						<div class="comparison">
-							<img src="img/comparison-logo.png" alt="">
-							<span>Сравнение</span>
-						</div>
-						<div class="basket">
-							<div class="counter"><span>3</span></div>
-							<img src="img/basket-logo.png" alt="">
-							<span>Корзина</span>
+						<div class="header-content-right">
+							<div class="search-box">
+								<form action="#">
+									<input type="text" placeholder="Поиск товаров">
+									<input type="submit">
+								</form>
+							</div>
+							<div class="comparison">
+								<img src="img/comparison-logo.png" alt="">
+								<span>Сравнение</span>
+							</div>
+							<div class="basket">
+								<div class="counter"><span>3</span></div>
+								<img src="img/basket-logo.png" alt="">
+								<span>Корзина</span>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -132,7 +134,26 @@
 		<div class="main">
 			<div class="container">
 				<div class="main-block">
-					<div class="slider"></div>
+					<div class="slider">
+						<div class="slider-elem" style="background-image: url(img/slide-el1.jpg);">
+							<div class="slider-elem-text">
+								<h2>Мембранные небулайзеры</h2>
+								<p>ВМембранные ингаляторы (или меш-ингаляторы) объединяют в себе достоинства ультразвуковых и компрессорных устройств. Они бесшумны, компактны и могут пии</p>
+							</div>
+						</div>
+						<!-- <div class="slider-elem" style="background-image: url(img/slide-el1.jpg);">
+							<div class="slider-elem-text">
+								<h2>Мембранные небулайзеры</h2>
+								<p>ВМембранные ингаляторы (или меш-ингаляторы) объединяют в себе достоинства ультразвуковых и компрессорных устройств. Они бесшумны, компактны и могут пии</p>
+							</div>
+						</div>
+						<div class="slider-elem" style="background-image: url(img/slide-el1.jpg);">
+							<div class="slider-elem-text">
+								<h2>Мембранные небулайзеры</h2>
+								<p>ВМембранные ингаляторы (или меш-ингаляторы) объединяют в себе достоинства ультразвуковых и компрессорных устройств. Они бесшумны, компактны и могут пии</p>
+							</div>
+						</div> -->
+					</div>
 					<div class="categories">
 						<div class="categories-block">
 							<div class="categories-elem">
@@ -463,5 +484,8 @@
 			</div>	
 		</footer>
 	</div>
+	<script type="text/javascript" src='js/jQuery-3.3.1.js'></script>
+	<!-- <script type="text/javascript" src="js/slick.min.js"></script> -->
+	<script type="text/javascript" src="js/custom.js"></script>		
 </body>
 </html>
