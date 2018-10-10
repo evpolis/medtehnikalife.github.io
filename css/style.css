@@ -514,7 +514,6 @@ body{
 	padding-bottom: 25px;
 	border-bottom: 2px solid #f6f9fc;
 	width: 100%;
-	background-color: lightpink;
 }
 
 .product-line ul{
@@ -551,7 +550,7 @@ body{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	background-color: pink;
+/*	background-color: pink;*/
 	/*position: absolute;*/
 	position: relative;
 }
@@ -565,7 +564,7 @@ body{
 	padding-right: 20px;
 	height: 321px;
 	overflow: hidden;
-	background-color: #e08ad9;
+/*	background-color: #e08ad9;*/
 	/*position: absolute;*/
 	/*position: relative;*/
 /*	position: absolute;*/
@@ -582,8 +581,8 @@ body{
 	border: 3px solid #e2eaf9;
 	border-radius: 7px;
 	height: auto;
-	z-index: 4001;
-	position: absolute;
+	/*z-index: 4001;
+	position: absolute;*/
 	/*position: absolute;*/
 	/*z-index: 3001;
 	position: absolute;*/
