@@ -89,10 +89,17 @@ $(document).ready(function() {
 		
 	});
 
-	// $('.popup-bottom').slick({
-	// 	infinite: true,
- //  		slidesToShow: 3,
- //  		slidesToScroll: 3,
-	// });
+	$('.popup-slider-nav').slick({
+		infinite: true,
+	   slidesToShow: 3,
+	   slidesToScroll: 1,
+	   focusOnSelect: true
+	});
+
+	 // $('a[data-slide]').click(function(e) {
+	 //   e.preventDefault();
+	 //   var slideno = $(this).data('slide');
+	 //   $('.slider-nav').slick('slickGoTo', slideno - 1);
+	 // });
 		
 });
