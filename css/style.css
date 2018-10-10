@@ -20,7 +20,7 @@ body{
 }
 
 .container{
-	/*outline: 1px solid red;*/
+/*	outline: 1px solid red;*/
 	max-width: 1160px;
 	padding: 0 20px;
 	margin: 0 auto;
@@ -514,6 +514,7 @@ body{
 	padding-bottom: 25px;
 	border-bottom: 2px solid #f6f9fc;
 	width: 100%;
+	background-color: lightpink;
 }
 
 .product-line ul{
@@ -550,6 +551,9 @@ body{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	background-color: pink;
+	/*position: absolute;*/
+	position: relative;
 }
 
 .product-centre-elem{
@@ -559,6 +563,30 @@ body{
 	padding-top: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
+	height: 321px;
+	overflow: hidden;
+	background-color: #e08ad9;
+	/*position: absolute;*/
+	/*position: relative;*/
+/*	position: absolute;*/
+	/*position: relative;*/
+/*	outline: 1px solid red;*/
+}
+
+/*.product-line .product-centre-elem{
+	position: absolute;
+	width: 100%;
+}
+*/
+.product-line .product-centre-elem:hover{
+	border: 3px solid #e2eaf9;
+	border-radius: 7px;
+	height: auto;
+	z-index: 4001;
+	position: absolute;
+	/*position: absolute;*/
+	/*z-index: 3001;
+	position: absolute;*/
 }
 
 .prod-img{
@@ -608,6 +636,45 @@ body{
 	color: #7e7e7e;
 	font-weight: 400;
 }
+
+.product-manuf{
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.product-manuf ul li{
+	color: #7e7e7e;
+	font-size: 15px;
+}
+
+.prod-el-buy{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 242px;
+	height: 54px;
+	background-color: #54be54;
+	position: relative;
+	bottom: 0;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'PT Mono', monospace;
+	color: #fff;
+	margin-left: -20px;
+	/*margin-right: -40px;*/
+/*	background-position: 95px 12px;*/
+	/*line-height: 50px;*/
+	box-sizing: border-box;
+/*	padding-left: 40px;*/
+}
+
+.prod-el-buy a{
+	color: #fff;
+	margin-right: 10px;
+}
+
 /******************************************/
 
 .advantages{
