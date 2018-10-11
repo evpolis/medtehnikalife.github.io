@@ -93,13 +93,24 @@ $(document).ready(function() {
 		infinite: true,
 	   slidesToShow: 3,
 	   slidesToScroll: 1,
-	   focusOnSelect: true
-	});
-
-	 // $('a[data-slide]').click(function(e) {
-	 //   e.preventDefault();
-	 //   var slideno = $(this).data('slide');
-	 //   $('.slider-nav').slick('slickGoTo', slideno - 1);
-	 // });
-		
+	   // focusOnSelect: true,
+	   responsive: [
+	   	{
+      	breakpoint: 725,
+      	settings: {
+        	slidesToShow: 2,
+        	slidesToScroll: 2,
+        	infinite: true,
+      		}
+      	},
+      	{
+      	breakpoint: 522,
+      	settings: {
+        	slidesToShow: 1,
+        	slidesToScroll: 1,
+        	infinite: true,
+      		}	
+      	}
+	   ]
+	});		
 });

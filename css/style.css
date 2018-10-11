@@ -1,4 +1,6 @@
 @import url("category.css");
+@import url("category-tile.css");
+@import url("card-product.css");
 
 *{
 	margin: 0;
@@ -296,9 +298,11 @@ body{
 .menu-block{
 	width: 100%;
 	height: 60px;
-	border-bottom: 2px solid #3b42db;
-	background-color: #4328ff;
+	position: relative;
+	background-image: url(../img/menu-bg2.png);
+	background-repeat: no-repeat;
 }
+
 
 .menu{
 	height: 60px;
@@ -390,23 +394,14 @@ body{
 }
 
 .slider-elem{
-/*	outline: 1px solid blue;*/
 	width: 100%;
 	height: 264px;	
-	/*height: 100%;*/
-/*	background-color: lightpink;*/
 	background-repeat: no-repeat;
-	/*background-size: contain;*/
-	/*background-position: left;*/
-	/*display: flex;
-	align-items: center;
-	justify-content: flex-end;*/
 	position: relative;
 }
 
 .slick-list .slick-track{
 	width: 100%;
-	/*background-color: red;*/
 }
 
 .slick-dots{
@@ -457,20 +452,10 @@ body{
 }
 
 .categories{
-	/*margin-top: 45px;
-	margin-bottom: 70px;
-	display: grid;
-	grid-template-rows: 1fr 1fr;
-  	grid-template-columns: 1fr 1fr 1fr 1fr;
-  	grid-row-gap: 40px;*/
-  	/*grid-column-gap: 88px;*/
   	width: 100%;
-/*  	outline: 1px solid red;*/
   	border-bottom: 2px solid #f6f9fc;
   	display: flex;
   	justify-content: center;
-  /*	padding: 0 52px;*/
-/*	display: flex;*/
 }
 
 .categories-block{
@@ -481,7 +466,6 @@ body{
   	grid-template-columns: 1fr 1fr 1fr 1fr;
   	grid-row-gap: 40px;
   	grid-column-gap: 88px;
-/*  	outline: 1px solid red;*/
 }
 
 .categories-elem{
