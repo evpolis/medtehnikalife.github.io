@@ -22,11 +22,9 @@ body{
 }
 
 .container{
-/*	outline: 1px solid red;*/
 	max-width: 1160px;
 	padding: 0 20px;
 	margin: 0 auto;
-	/*display: flex;*/
 }
 
 .header-top{
@@ -301,6 +299,7 @@ body{
 	position: relative;
 	background-image: url(../img/menu-bg2.png);
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
