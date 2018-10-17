@@ -18,7 +18,7 @@ body{
 	background-image: url('../img/bg-smart.png');
 	background-repeat: no-repeat;
 	background-position: top;
-	width: 100%;
+	max-width: 100%;
 }
 
 .container{
