@@ -170,11 +170,38 @@
 	font-weight: 700;
 }
 
+.card-buy-block .stock-buy{
+	color: red;
+}
+
 .card-buy-block .card-buy-val{
 	font-size: 13px;
 	font-weight: 400;
 	color: #000000;
 }
+
+.card-buy-block .card-buy-val.stock-buy{
+	color: red;
+}
+
+
+
+/*.card-buy-block .card-buy-val.old-buy{
+	color: #cdcdcd;
+	position: relative;
+}
+
+.card-buy-block .card-buy-val.old-buy::before{
+	content: "";
+	display: block;
+	height: 1px;
+	width: 32px;
+	background-color: #ff7155;
+	position: absolute;
+	bottom: 10px;
+	left: -4px;
+	transform: rotate(-30deg);
+}*/
 
 
 .card-buy-block select{
@@ -516,11 +543,33 @@ span.quantity-prod-price{
 }
 
 .quantity-prod-count{
+	position: relative;
+}
+
+.quantity-prod-count input{
 	width: 72px;
 	height: 37px;
 	border: 1px solid #e6e6e6;
 	border-radius: 6px;
 	margin-top: 7px;
+	font-size: 15px;
+	padding-left: 20px;
+	outline: none;
+}
+
+.quantity-prod-count img{
+	position: absolute;
+	cursor: pointer;
+}
+
+.up-count{
+	right: 42px;
+	top: 18px;
+}
+
+.down-count{
+	right: 42px;
+	bottom: 10px;
 }
 
 
