@@ -253,6 +253,7 @@ body{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	cursor: pointer;
 }
 
 .comparison span, .basket span{
@@ -353,7 +354,20 @@ body{
 	justify-content: center;
 	align-items: center;
 	border-radius: 0 0 12px 12px;
-	border-bottom: 5px solid #4b48ff;
+}
+
+.main-block-border{
+	height: 35px;
+	width: 100%;
+	background: linear-gradient(to right, #494cff, #3b68ff, #307fff, #307fff, #1ca5ff);
+	border-radius: 0 0 12px 12px;
+}
+
+.main-block-border div{
+	background-color: #fff;
+	width: 100%;
+	height: 30px;
+	border-radius: 0 0 12px 12px;
 }
 
 .slider{
@@ -481,6 +495,11 @@ body{
 	margin-left: 48px;
 }
 
+.product-line ul li{
+	height: 32px;
+	box-sizing: border-box;
+}
+
 .product-line ul li a{
 	color: #397ce9;
 	font-size: 20px;
@@ -496,10 +515,14 @@ body{
 	margin: 0 20px;
 }
 
-.product-line .product-activ-link{
+.product-activ-li{
 	color: #54be54;
 	padding-bottom: 5px;
 	border-bottom: 4px solid #54be54;
+}
+
+.product-activ-link{
+	color: #54be54;
 }
 
 
@@ -760,8 +783,7 @@ body{
 
 .about-block{
 	max-width: 800px;
-	padding-bottom: 60px;
-	padding: 0 10px 47px 10px;
+	padding: 0 10px 25px 10px;
 }
 
 .about-block h3{
@@ -783,6 +805,7 @@ body{
 
 .main-bottom{
 	padding-bottom: 47px;
+	position: relative;
 }
 
 .main-bottom ul{

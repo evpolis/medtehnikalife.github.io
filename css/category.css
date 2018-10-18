@@ -115,6 +115,7 @@
 
 .kinds-elem{
 	width: 124px;
+	cursor: pointer;
 }
 
 .kinds-img{
@@ -138,7 +139,6 @@
 	padding: 20px;
 	display: flex;
 	border-top: 2px solid #f6f9fc;
-
 }
 
 .list-elem-img{
@@ -267,6 +267,13 @@
 }
 
 .list-elem-tr h4{
+	color: #397ce9;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.list-elem-tr a{
 	color: #397ce9;
 	font-size: 18px;
 	font-weight: 700;
@@ -659,7 +666,7 @@
 
 .desc-nebulazer{
 	width: 100%;
-	padding: 33px 0;
+	padding: 33px 0 0 0;
 	display: flex;
 	justify-content: space-between;
 }
@@ -895,6 +902,10 @@
 	list-style-type: none;
 }
 
+.yet-li{
+	display: none;
+}
+
 .yet-link{
 	color: #3a7de9;
 	font-size: 15px;
@@ -905,8 +916,29 @@
 	margin-top: 14px;
 }
 
-.average-size-filter li:nth-child(6){
-	list-style-image: url('../img/marker1.png');
+.average-size-filter li:last-child{
+	position: relative;
+	height: 18px;
+	cursor: pointer;
+}
+
+.average-size-filter li:last-child img{
+	margin-right: 5px;
+	position: absolute;
+	left: 2px;
+	top: 5px;
+}
+
+.rotate-marker{
+	transform: rotate(180deg);
+}
+
+.rotate-marker1{
+	transform: rotate(90deg);
+}
+
+
+.average-size-filter li:last-child a{
 	margin-left: 20px;
 }
 
